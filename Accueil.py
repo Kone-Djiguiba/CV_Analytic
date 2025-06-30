@@ -44,13 +44,13 @@ st.header("📌 Accès Rapide")
 nav_cols = st.columns(4)
 with nav_cols[0]:
     if st.button("Analyse de CV", use_container_width=True):
-        st.switch_page("1_Analyse_CV")
+        st.switch_page("pages/1_Analyse_CV.py")
 with nav_cols[1]:
     if st.button("Espace Recruteur", use_container_width=True):
-        st.switch_page("2_Espace_Recruteur")
+        st.switch_page("pages/2_Espace_Recruteur.py")
 with nav_cols[2]:
     if st.button("À Propos", use_container_width=True):
-        st.switch_page("3_A_Propos")
+        st.switch_page("pages/3_A_Propos.py")
 with nav_cols[3]:
     if st.button("Démo Rapide", use_container_width=True):
-        st.switch_page("1_Analyse_CV")
+        st.switch_page("pages/1_Analyse_CV.py")
